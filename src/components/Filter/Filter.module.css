@@ -1,0 +1,22 @@
+.container {
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #d8e0ea;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.input {
+  margin-top: 5px;
+  padding-left: 15px;
+  border: 1px solid #d8e0ea;
+  border-radius: 5px;
+  outline: none;
+}
+.input:hover,
+input:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
