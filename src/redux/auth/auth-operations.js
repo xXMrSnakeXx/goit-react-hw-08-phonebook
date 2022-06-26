@@ -19,7 +19,7 @@ const register = createAsyncThunk('auth/register', async userData => {
     token.set(data.token);
     return data;
   } catch (error) {
-    return Notiflix.Notify.error(error.message);
+    return Notiflix.Notify.failure(error.message);
   }
 });
 
