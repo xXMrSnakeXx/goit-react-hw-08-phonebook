@@ -37,11 +37,11 @@ export const ContactForm = () => {
   };
 
   useEffect(() => {
-    if (isLoading) {
+    if (isSuccess) {
       Notiflix.Notify.success(`Contact added!`);
       formReset();
     }
-  }, [isLoading, isSuccess]);
+  }, [isSuccess]);
 
   const { name, number } = form;
   return (
